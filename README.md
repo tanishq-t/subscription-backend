@@ -95,7 +95,7 @@ CORS_ORIGIN=http://localhost:3000
 | POST   | `/api/update-user`       | Update user profile details    |
 | POST   | `/api/upload-profile`    | Upload/update profile picture  |
 
-#🧾 Plan Routes
+# 🧾 Plan Routes
 
 | Method | Endpoint         | Description                 |
 | ------ | ---------------- | --------------------------- |
