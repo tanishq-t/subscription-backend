@@ -57,3 +57,20 @@ A RESTful API for user authentication, subscription plans, and user subscription
 
 ---
 
+## 🛠️ Environment Variables
+
+Create a `.env` file at the root with the following:
+
+```env
+PORT=5000
+MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/<dbname>
+ACCESS_TOKEN_SECRET=your_access_secret
+ACCESS_TOKEN_EXPIRY=
+REFRESH_TOKEN_SECRET=your_refresh_secret
+REFRESH_TOKEN_EXPIRY=
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+EMAIL_USER=your_email@gmail.com
+EMAIL_PASS=your_email_app_password
+CORS_ORIGIN=http://localhost:3000
