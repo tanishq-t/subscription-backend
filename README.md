@@ -57,10 +57,3 @@ A RESTful API for user authentication, subscription plans, and user subscription
 
 ---
 
-## Installation & Setup
-
-1. Clone repo:
-
-   ```bash
-   git clone <your-repo-url>
-   cd <your-repo-directory>
