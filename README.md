@@ -74,3 +74,44 @@ CLOUDINARY_API_SECRET=your_api_secret
 EMAIL_USER=your_email@gmail.com
 EMAIL_PASS=your_email_app_password
 CORS_ORIGIN=http://localhost:3000
+```
+
+---
+
+## 📮 API Endpoints
+
+# 🔐 Auth & User Routes
+
+| Method | Endpoint                 | Description                    |
+| ------ | ------------------------ | ------------------------------ |
+| POST   | `/api/send-verification` | Send verification email        |
+| POST   | `/api/signup`            | Register a new user            |
+| POST   | `/api/signin`            | Login and get access tokens    |
+| POST   | `/api/signout`           | Logout and clear tokens        |
+| POST   | `/api/refresh-token`     | Get new access token           |
+| GET    | `/api/getUser`           | Get logged-in user details     |
+| POST   | `/api/account-recovery`  | Request OTP for password reset |
+| POST   | `/api/changePassword`    | Change password using OTP      |
+| POST   | `/api/update-user`       | Update user profile details    |
+| POST   | `/api/upload-profile`    | Upload/update profile picture  |
+
+#🧾 Plan Routes
+
+| Method | Endpoint         | Description                 |
+| ------ | ---------------- | --------------------------- |
+| GET    | `/api/plans`     | List all subscription plans |
+| POST   | `/api/plans`     | Create a new plan           |
+| GET    | `/api/plans/:id` | Get a single plan by ID     |
+| PUT    | `/api/plans/:id` | Update plan details         |
+| DELETE | `/api/plans/:id` | Delete a plan               |
+
+# 📬 Subscription Routes
+
+| Method | Endpoint                 | Description                     |
+| ------ | ------------------------ | ------------------------------- |
+| GET    | `/api/subscriptions`     | Get user's active subscriptions |
+| POST   | `/api/subscriptions`     | Subscribe to a new plan         |
+| PUT    | `/api/subscriptions/:id` | Update or cancel a subscription |
+| DELETE | `/api/subscriptions/:id` | Permanently delete subscription |
+
+
